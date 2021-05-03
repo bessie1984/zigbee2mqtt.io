@@ -17,6 +17,15 @@ description: "Integrate your Lonsonho QS-Zigbee-D02-TRIAC-2C-LN via Zigbee2MQTT 
 
 ## Notes
 
+### Pairing
+Some models have a reset button\hole to activate the pairing mode. But in case not, use the steps below.
+The first time the controller is connected, it will go automaticly in pairing mode. In case you want to start the paring mode 'manually', perform the following steps.
+
+* Connect a bulb (L1) and a switch (S1) to the controller.
+* Power on the controller, wait a few seconds.
+* Turn on\off the light with the switch several times (5-7), untill the light will flash quickly.
+* The controller is now in pairing mode.
+
 ### Device type specific configuration
 *[How to use device type specific configuration](../information/configuration.md)*
 
